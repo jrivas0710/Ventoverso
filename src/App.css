@@ -20,19 +20,28 @@ html {
    'header'
    'main'
    'footer';
+  }
  
    
-  }
    
   /* este es mi header, le asigne una grid area dentro de mi contenedor grid */
   .header-grid{
    grid-area: header; 
-  
   }
+
+  .header-flex{
+    background-color: rgb(211, 210, 210);
+    height: 6rem;
+    align-items: center;
+   
+  }
+   
+  
   
   .header-flex, .categories-flex{
    display: flex;
    justify-content: space-around;
+   margin: 0;
   
   }
   
@@ -45,8 +54,22 @@ html {
    color: whitesmoke;
    height: 3rem;
    align-items: center;
-   
   }
+
+  .logo-header{
+    background-color: rgb(86, 212, 212);
+    padding:0.8rem;
+    border-radius: 1rem;
+ 
+  }
+    
+  
+
+
+    
+    
+  
+   
 
 
 
