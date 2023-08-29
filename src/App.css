@@ -6,38 +6,54 @@ html {
  *::before,
  *::after {
   box-sizing: inherit;
+  
  }
 
- /* este es mi contenedor grid que es como a nivel del body, contendra todos los componentes del body */
- .grid-container{
-    
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  grid-template-rows: 1fr 4fr 1fr; /* hice 3 filas porque arriba estara el header, al medio el main y el menu y abajo el footer */
-  grid-template-areas: /* les asigne nombres literales a cada area definida arriba */
-  'header'
-  'main'
-  'footer';
-  padding: 1rem;
-}
-  
-/* este es mi header, le asigne una grid area dentro de mi contenedor grid */
-.header-grid{
-  grid-area: header; 
-
-}
-
-.header-flex, .categories-flex{
-  display: flex;
-  justify-content: space-around;
+/* este es mi contenedor grid que es como a nivel del body, contendra todos los componentes del body */
+  .grid-container{
+   
+   width: 100vw;
+   height: 100vh;
+   display: grid;
+   grid-template-rows: 1fr 4fr 1fr; /* hice 3 filas porque arriba estara el header, al medio el main y el menu y abajo el footer */
+   grid-template-areas: /* les asigne nombres literales a cada area definida arriba */
+   'header'
+   'main'
+   'footer';
  
-}
+   
+  }
+   
+  /* este es mi header, le asigne una grid area dentro de mi contenedor grid */
+  .header-grid{
+   grid-area: header; 
+  
+  }
+  
+  .header-flex, .categories-flex{
+   display: flex;
+   justify-content: space-around;
+  
+  }
+  
+  .categories-flex{
+   list-style: none;
+   justify-content: space-between;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   background-color: black;
+   color: whitesmoke;
+   height: 3rem;
+   align-items: center;
+   
+  }
 
-.categories-flex{
-  list-style: none;
-  justify-content: space-between;
-}
+
+
+
+
+
+
 
 
 
