@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
+
 export const Header= () => {
 
 
@@ -19,7 +20,8 @@ export const Header= () => {
           </div>
 
           <div>
-            <input type="text" />
+            <input type="text" className='filter' placeholder='Buscar'/>
+            <button><img src="/images/lupa.png" alt="filter" /></button>
           </div>
 
 

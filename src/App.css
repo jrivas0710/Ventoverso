@@ -58,10 +58,19 @@ html {
 
   .logo-header{
     background-color: rgb(86, 212, 212);
-    padding:0.8rem;
+    padding:0.5rem;
     border-radius: 1rem;
- 
   }
+
+  .filter{
+    border-radius: 2rem;
+    height: 2.3rem;
+    width: 23rem;
+    border: none;
+    text-align: center;
+
+  }
+ 
     
   
 
