@@ -1,42 +1,21 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* este es mi contenedor grid que es como a nivel del body, contendra todos los componentes del body */
+.grid-container{
+   
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr; /* hice 3 filas porque arriba estara el header, al medio el main y abajo el footer */
+  grid-template-areas: /* les asigne nombres literales a cada area definida arriba */
+  'header'
+  'main'
+  'footer';
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+  
+ }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*  Jose cuando crees aca el contenedor de tu footer debes ponerle el codigo de abajo
+ asi tomara el espacio que defini arriba como el footer
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+ .footer{  le asigne el area del footer 
+  grid-area: footer;
+} 
