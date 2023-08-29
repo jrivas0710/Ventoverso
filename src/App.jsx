@@ -2,50 +2,60 @@ import { useState } from 'react'
 import './App.css'
 
 
-export const Header= () => {
+export const Header = () => {
 
 
   return (
     <>
-    <div  className='grid-container'>
+      <div className='grid-container'>
 
 
-  
-      <header className = 'header-grid'>
 
-        <section className='header-flex'>
+        <header className='header-grid'>
 
-          <div className ='logo-header'>
-            Logo Ventoverso
-          </div>
+          <section className='header-flex'>
 
-          <div>
-            <input type="text" className='filter' placeholder='Buscar'/>
-            <button className='filter-button'><img src="/images/lupa.png" alt="filter" className='filter-icon' /></button>
-          </div>
+            <div className='logo-header'>
+              Logo Ventoverso
+            </div>
 
-
-          <div>
-            icono
-            icono
-            icono
-          </div>
-
-        </section>
-
-        <section >
-          <ul className='categories-flex'>
-            <li>Bronces</li>
-            <li>Maderas</li>
-            <li>Herramientas</li>
-            <li>Accesorios</li>
-            <li>Ofertas</li>
-            <li>Ayuda</li>
-          </ul>
-        </section>
+            <div>
+              <input type="text" className='filter' placeholder='Buscar' />
+              <button className='filter-button '><img src="/images/lupa.png" alt="filter" className='filter-icon' /></button>
+            </div>
 
 
-      </header>
+            <div className='icons'>
+              <a href="#">
+                <img src="/images/like.png" alt="like" className='like' />
+              </a>
+              <a href="#">
+                <img src="/images/user.png" alt="user" className='user' />
+              </a>
+              <a href="#">
+                <img src="/images/carrito.png" alt="carrito" className='carrito' />
+              </a>
+
+
+
+
+            </div>
+
+          </section>
+
+          <section >
+            <ul className='categories-flex'>
+              <li>Bronces</li>
+              <li>Maderas</li>
+              <li>Herramientas</li>
+              <li>Accesorios</li>
+              <li>Ofertas</li>
+              <li>Ayuda</li>
+            </ul>
+          </section>
+
+
+        </header>
       </div>
     </>
   )
