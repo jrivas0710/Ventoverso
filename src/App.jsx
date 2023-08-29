@@ -21,7 +21,7 @@ export const Header= () => {
 
           <div>
             <input type="text" className='filter' placeholder='Buscar'/>
-            <button><img src="/images/lupa.png" alt="filter" /></button>
+            <button className='filter-button'><img src="/images/lupa.png" alt="filter" className='filter-icon' /></button>
           </div>
 
 

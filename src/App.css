@@ -22,8 +22,6 @@ html {
    'footer';
   }
  
-   
-   
   /* este es mi header, le asigne una grid area dentro de mi contenedor grid */
   .header-grid{
    grid-area: header; 
@@ -33,11 +31,10 @@ html {
     background-color: rgb(211, 210, 210);
     height: 6rem;
     align-items: center;
+    position: relative;
    
   }
    
-  
-  
   .header-flex, .categories-flex{
    display: flex;
    justify-content: space-around;
@@ -54,6 +51,7 @@ html {
    color: whitesmoke;
    height: 3rem;
    align-items: center;
+   
   }
 
   .logo-header{
@@ -68,10 +66,34 @@ html {
     width: 23rem;
     border: none;
     text-align: center;
+   }
 
+  .filter-button{
+    position: absolute;
+    cursor: pointer;
+    top: 30.8%;
+    right: 60%;
+    height: 2.3rem;
+    width: 2.7rem;
+    border-radius: 3rem;
+    background-color: rgb(0,0,0,0)
+    
+
+    
+
+    
+    
+    
   }
  
+  .filter-icon {
+    height: 1rem;
+    width: 1rem;
+    align-items: center;
     
+  }
+    
+
   
 
 
