@@ -2,12 +2,14 @@
 
 .seccion-populares{
     display: flex;
-    gap: 2rem;
+    
     justify-content: space-around;
     grid-area: section3;
     font-weight: bold;
     padding-top:3rem;
-    position:relativa
+    position:relativa;
+    
+    
     
 }
 

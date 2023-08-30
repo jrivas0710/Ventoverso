@@ -3,13 +3,47 @@
 .productos-destacados{
     grid-area: section2;
     display: flex;
-    justify-content: space-around;
+    width: 100%;
+    gap: 2rem;
+   
+   
 }
 
 .productos-destacados > div {
     
     height: 13rem;
     width: 15rem;
-    background-color: rgb(211, 210, 210);
+    
+}
 
+.producto{
+    background-color: rgb(211, 210, 210);
+    height: 12rem;
+    width: 14rem;
+    
+}
+
+
+.ranking{
+    
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nombre-producto{
+ 
+    text-align: start;
+
+}
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.nombre-precio-ranking{
+    display: flex;
+    flex-direction: column;
 }

@@ -11,11 +11,9 @@ html {
 
 /* este es mi contenedor grid que es como a nivel del body, contendra todos los componentes del body */
   .grid-container{
-   
    width: 100vw;
-   height: 100vh;
    display: grid;
-   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; /* hice 5 filas porque arriba estara el header, al medio el main con 3 filas y bajo el footer con 1*/
+   grid-template-rows: 1fr 1fr 2fr 1fr 1fr; /* hice 5 filas porque arriba estara el header, al medio el main con 3 filas y bajo el footer con 1*/
    grid-template-areas: /* les asigne nombres literales a cada area definida arriba */
    'header'
    'section1'
@@ -31,6 +29,8 @@ html {
 /* este es mi header, le asigne una grid area dentro de mi contenedor grid */
   .header-grid{
    grid-area: header; 
+   width: 100%;
+   
   }
 
   .header-flex{
