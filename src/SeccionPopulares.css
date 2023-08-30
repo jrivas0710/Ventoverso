@@ -7,7 +7,7 @@
     grid-area: section3;
     font-weight: bold;
     padding-top:3rem;
-    position:relativa;
+    position:relative;
     
     
     
@@ -15,7 +15,8 @@
 
 .texto-marcas-populares{
     position: absolute;
-    top:46%;
+    bottom:85%
+    
 }
 
 
