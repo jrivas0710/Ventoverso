@@ -15,7 +15,7 @@ html {
    width: 100vw;
    height: 100vh;
    display: grid;
-   grid-template-rows: 1fr 4fr 1fr; /* hice 3 filas porque arriba estara el header, al medio el main y el menu y abajo el footer */
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; /* hice 3 filas porque arriba estara el header, al medio el main y el menu y abajo el footer */
    grid-template-areas: /* les asigne nombres literales a cada area definida arriba */
    'header'
    'main'
@@ -71,7 +71,7 @@ html {
   .filter-button{
     position: absolute;
     top: 30.8%;
-    right: 60%;
+    right: 61%;
     height: 2.3rem;
     width: 2.9rem;
     border-radius: 3rem;
