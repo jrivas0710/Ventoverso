@@ -23,8 +23,12 @@ html {
    'section3'
    'footer';
   }
- 
-  /* este es mi header, le asigne una grid area dentro de mi contenedor grid */
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+ /* HEADER / CATEGORIAS / ICONOS  */
+
+/* este es mi header, le asigne una grid area dentro de mi contenedor grid */
   .header-grid{
    grid-area: header; 
   }
@@ -97,6 +101,14 @@ html {
     height: 17px;
     
   }
+
+
+/*   ////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* MAIN  */
+
+
+
 
 
 
