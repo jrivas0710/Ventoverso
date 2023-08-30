@@ -1,0 +1,15 @@
+
+
+.productos-destacados{
+    grid-area: section2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.productos-destacados > div {
+    
+    height: 13rem;
+    width: 15rem;
+    background-color: rgb(211, 210, 210);
+
+}
