@@ -1,24 +1,30 @@
+import './SeccionPopulares.css'
+
+
 export const SeccionPopulares = () => {
 
 
     return (
       <>
-  
-        <section className='.grid-container'>
-  
+        
+       
           <div className='seccion-populares'>
+            
+           <section className='texto-marcas-populares'>
+           <h2>Marcas populares</h2>
+           </section>
+
   
-  
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
-            <div>hola</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
   
   
   
           </div>
   
-        </section>
+    
   
       </>
     )

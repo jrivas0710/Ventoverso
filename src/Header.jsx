@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Header.css'
+import { SeccionPopulares } from './SeccionPopular'
 
 
 export const Header = () => {
@@ -56,7 +57,12 @@ export const Header = () => {
 
 
         </header>
+
+        <SeccionPopulares/>
       </div>
+
+   
+
     </>
   )
 
