@@ -4,7 +4,8 @@
     grid-area: section2;
     display: flex;
     width: 100%;
-    gap: 2rem;
+    
+    justify-content: space-around;
    
    
 }
