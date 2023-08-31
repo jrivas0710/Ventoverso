@@ -2,7 +2,7 @@
 
 .iconos {
     grid-area: iconos;
-    background-color: pink;
+    background-color: rgb(86, 212, 212);
     height: auto;
     margin-bottom: 5rem;
     padding: 0;
