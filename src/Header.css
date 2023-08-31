@@ -17,6 +17,7 @@ html {
    grid-template-areas: /* les asigne nombres literales a cada area definida arriba */
    'header'
    'section1'
+   'iconos'
    'section2'
    'section3'
    'footer';
