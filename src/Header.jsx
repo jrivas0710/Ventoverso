@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './Header.css'
 import { SeccionPopulares } from './SeccionPopular.jsx'
 import { Destacados } from './ProductosDestacados.jsx'
-
+import { Footer} from './Footer.jsx'
 
 export const Header = () => {
 
@@ -61,6 +61,7 @@ export const Header = () => {
 
         <Destacados/>
         <SeccionPopulares/>
+        <Footer/>
       </div>
 
    

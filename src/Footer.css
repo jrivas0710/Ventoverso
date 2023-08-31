@@ -1,0 +1,7 @@
+.grid-footer {
+    grid-area: footer;
+    display: flex;
+    background-color: rgb(211, 210, 210);
+    margin-top: 2rem;
+    
+}
