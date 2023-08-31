@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './Header.css'
-import { SeccionPopulares } from './SeccionPopular'
+import { SeccionPopulares } from './SeccionPopular.jsx'
+import { Destacados } from './ProductosDestacados.jsx'
 
 
 export const Header = () => {
@@ -58,6 +59,7 @@ export const Header = () => {
 
         </header>
 
+        <Destacados/>
         <SeccionPopulares/>
       </div>
 
