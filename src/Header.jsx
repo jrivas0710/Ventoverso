@@ -4,6 +4,8 @@ import { SeccionPopulares } from './SeccionPopular.jsx'
 import { Destacados } from './ProductosDestacados.jsx'
 
 
+
+
 export const Header = () => {
 
 
@@ -20,7 +22,6 @@ export const Header = () => {
             <div className='logo-header'>
               Logo Ventoverso
             </div>
-
             <div>
               <input type="text" className='filter' placeholder='Buscar' />
               <button className='filter-button '><img src="/images/lupa.png" alt="filter" className='filter-icon' /></button>
