@@ -3,8 +3,26 @@
 .iconos {
     grid-area: iconos;
     background-color: pink;
-    
-    margin: 0;
+    height: auto;
+    margin-bottom: 5rem;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconos > div {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.imagenes-iconos {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
 }
 
