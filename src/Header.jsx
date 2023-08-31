@@ -3,6 +3,7 @@ import './Header.css'
 import { SeccionPopulares } from './SeccionPopular.jsx'
 import { Destacados } from './ProductosDestacados.jsx'
 import { Iconos } from './Iconos'
+import { Carrusel } from './Carrusel'
 
 
 export const Header = () => {
@@ -59,7 +60,7 @@ export const Header = () => {
 
 
         </header>
-
+        <Carrusel/>
         <Destacados/>
         <SeccionPopulares/>
         <Iconos/>

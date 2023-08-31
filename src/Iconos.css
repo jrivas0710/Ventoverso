@@ -4,11 +4,12 @@
     grid-area: iconos;
     background-color: rgb(86, 212, 212);
     height: auto;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
     padding: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .iconos > div {
