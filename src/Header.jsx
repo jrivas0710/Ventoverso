@@ -48,12 +48,12 @@ export const Header = () => {
 
           <section >
             <ul className='categories-flex'>
-              <li>Bronces</li>
-              <li>Maderas</li>
-              <li>Herramientas</li>
-              <li>Accesorios</li>
-              <li>Ofertas</li>
-              <li>Ayuda</li>
+              <a href="#"><li>Bronces</li></a>
+              <a href="#"><li>Maderas</li></a>
+              <a href="#"><li>Herramientas</li></a>
+              <a href="#"><li>Accesorios</li></a>
+              <a href="#"><li>Ofertas</li></a>
+              <a href="#"><li>Ayuda</li></a>
             </ul>
           </section>
 
