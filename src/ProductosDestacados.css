@@ -6,6 +6,7 @@
     width: 100%;
     justify-content: space-around;
     position: relative;
+    padding-top: 3rem;
    
    
 }
@@ -51,7 +52,9 @@
 
 .texto-productos-destacados{
     position: absolute;
-    bottom: 105%;
+    bottom: 96%;
     right: 40%;
+ 
+    
     
 }
