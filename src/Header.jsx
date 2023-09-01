@@ -2,6 +2,8 @@ import { useState } from 'react'
 import './Header.css'
 import { SeccionPopulares } from './SeccionPopular.jsx'
 import { Destacados } from './ProductosDestacados.jsx'
+import { Iconos } from './Iconos'
+import { Carrusel } from './Carrusel'
 
 
 
@@ -48,20 +50,21 @@ export const Header = () => {
 
           <section >
             <ul className='categories-flex'>
-              <li>Bronces</li>
-              <li>Maderas</li>
-              <li>Herramientas</li>
-              <li>Accesorios</li>
-              <li>Ofertas</li>
-              <li>Ayuda</li>
+              <a href="#"><li>Bronces</li></a>
+              <a href="#"><li>Maderas</li></a>
+              <a href="#"><li>Herramientas</li></a>
+              <a href="#"><li>Accesorios</li></a>
+              <a href="#"><li>Ofertas</li></a>
+              <a href="#"><li>Ayuda</li></a>
             </ul>
           </section>
 
 
         </header>
-
+        <Carrusel/>
         <Destacados/>
         <SeccionPopulares/>
+        <Iconos/>
       </div>
 
    

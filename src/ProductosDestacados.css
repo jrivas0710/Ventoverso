@@ -4,8 +4,9 @@
     grid-area: section2;
     display: flex;
     width: 100%;
-    
     justify-content: space-around;
+    position: relative;
+    padding-top: 3rem;
    
    
 }
@@ -47,4 +48,13 @@
 .nombre-precio-ranking{
     display: flex;
     flex-direction: column;
+}
+
+.texto-productos-destacados{
+    position: absolute;
+    bottom: 96%;
+    right: 40%;
+ 
+    
+    
 }

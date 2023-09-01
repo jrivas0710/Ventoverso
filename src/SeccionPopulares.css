@@ -8,6 +8,8 @@
     font-weight: bold;
     padding-top:3rem;
     position:relative;
+    margin-top: 1rem;
+    
     
     
     
@@ -15,7 +17,7 @@
 
 .texto-marcas-populares{
     position: absolute;
-    bottom:85%
+    bottom:91%
     
 }
 
