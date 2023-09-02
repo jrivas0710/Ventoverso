@@ -14,7 +14,11 @@
   background-color: rgb(211, 210, 210);
   grid-area: footer;
   margin-top: 2rem;
+  padding-bottom: 2rem;
+  
 }
+
+
 .footer1 { 
     
     padding: 20 px;
@@ -26,7 +30,7 @@
   
     padding: 20 px;
     font-size: 13px;
-    text-align: center;
+    ;
 
   
 }
@@ -34,7 +38,7 @@
   
     padding: 20 px;
     font-size: 13px;
-    text-align: center;
+   
 
 }
 
@@ -42,7 +46,31 @@
   
     padding: 20 px;
     font-size: 13px;
-    text-align: center;
+    
 
 }
 
+.facebook, .instagram, .tik-tok{
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+   
+}
+
+
+
+.logo{
+    height: 3rem;
+    width: 10rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: rgb(74, 192, 192); 
+    align-items: center;
+    padding-top: 0.8rem;
+    text-align: center;
+}
+
+.direccion{
+    margin-right: 80px;
+   
+}
