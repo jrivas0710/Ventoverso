@@ -1,5 +1,7 @@
 import "./Footer.css"
-//import tiktok from './assets/tik_tok.png'
+import tiktok from './assets/tik_tok.png'
+import Instagram from './assets/instagram.png'
+import facebook from './assets/facebook.png'
 
 export const Footer = () => {
     return (
@@ -20,9 +22,9 @@ export const Footer = () => {
                     <p>Devoluciones y Reebolso</p>
                 </div>
                 <div className="footer4"><h1>Siguenos</h1>
-                    <img class="Facebook" src="https://mcstaging.mts.cl/media/wysiwyg/Trazado_70.png"></img>
-                    <img className="Instagram" src="https://mcstaging.mts.cl/media/wysiwyg/instagram_1_.png"></img>
-                    {/* <img className="tik_tok" src= {tiktok}> </img> */}
+                    <img className="Facebook" src={'facebook'}></img>
+                    <img className="Instagram" src={'Instagram'}></img>
+                    <img className="tik_tok" src= {'tiktok'}> </img> 
                     </div>
             </div>
         </>
