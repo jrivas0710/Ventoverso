@@ -4,10 +4,8 @@ import { SeccionPopulares } from './SeccionPopular.jsx'
 import { Destacados } from './ProductosDestacados.jsx'
 import { Iconos } from './Iconos'
 import { Carrusel } from './Carrusel'
-import { Footer } from './Footer'
 
-
-
+import { Footer} from './Footer'
 
 export const Header = () => {
 
