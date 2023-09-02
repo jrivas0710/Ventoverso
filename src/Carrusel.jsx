@@ -24,8 +24,8 @@ export const Carrusel = () => {
                             
                         </div>
                         <div className="flechas-carrusel">
-                            <a href="#"><i><img src="./images/flecha-izquierda.png" alt="flecha-izquierda" className='flecha'/></i></a>
-                            <a href="#"><i><img src="./images/flecha-derecha.png" alt="flecha-derecha"  className='flecha'/></i></a>
+                            <a href="#enlaceItem2"><i><img src="./images/flecha-izquierda.png" alt="flecha-izquierda" className='flecha'/></i></a>
+                            <a href="#enlaceItem3"><i><img src="./images/flecha-derecha.png" alt="flecha-derecha"  className='flecha'/></i></a>
                         </div>
                     </div>
                     <div className='carrusel-item ' id='enlaceItem3'>
@@ -33,8 +33,8 @@ export const Carrusel = () => {
                             
                         </div>
                         <div className="flechas-carrusel">
-                            <a href="#"><i><img src="./images/flecha-izquierda.png" alt="flecha-izquierda" className='flecha'/></i></a>
-                            <a href="#"><i><img src="./images/flecha-derecha.png" alt="flecha-derecha"  className='flecha'/></i></a>
+                            <a href="#enlaceItem3"><i><img src="./images/flecha-izquierda.png" alt="flecha-izquierda" className='flecha'/></i></a>
+                            <a href="#enlaceItem1"><i><img src="./images/flecha-derecha.png" alt="flecha-derecha"  className='flecha'/></i></a>
                         </div>
                     </div>
 
