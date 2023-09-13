@@ -52,6 +52,7 @@ export const Destacados = () => {
                         <img src="images/estrellas.png" alt="ranking" className='ranking' />
                         <span className='nombre-producto'>Nombre del producto</span>
                         <span className='precio'>$99.999</span>
+                        
                     </div>
                 </div>
 
