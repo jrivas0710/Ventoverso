@@ -5,13 +5,42 @@ import { Destacados } from './ProductosDestacados.jsx'
 import { Iconos } from './Iconos'
 import { Carrusel } from './Carrusel'
 import { Footer} from './Footer'
+import {SideSheet} from './SideSheet'
 
 
 export const Header = () => {
 
+  const [isSideSheetOpen, setIsSideSheetOpen] = useState(false);
+
+  
+  const openSideSheet = () => {
+    setIsSideSheetOpen(true)
+  };
+
+  // Función para cerrar el SideSheet
+  const closeSideSheet = () => {
+    setIsSideSheetOpen(false)
+  };
+
+
+
 
   return (
     <>
+
+<div>
+      <button onClick={openSideSheet}>Abrir SideSheet</button>
+
+      {/* Renderiza el SideSheet y pasa las propiedades necesarias */}
+      <SideSheet
+       isOpen={isSideSheetOpen}
+       onClose={closeSideSheet}>
+        <h3>soy un children</h3>
+      </SideSheet>
+    </div>
+
+
+    {/* header comienza aqui */}
       <div className='grid-container'>
 
 
@@ -60,11 +89,23 @@ export const Header = () => {
 
 
         </header>
+
         <Carrusel/>
         <Destacados/>
         <SeccionPopulares/>
         <Iconos/>
         <Footer/>
+
+
+
+
+ 
+
+
+
+
+
+
       </div>
 
    
